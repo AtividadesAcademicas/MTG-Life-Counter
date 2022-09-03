@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.player{
+    height: 48vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player div{
+    align-self: center;
+}
+
+.player :not(.life){
+    font-size: 3rem;
+}
+
+.life{
+    font-size: 5rem;
+}
+
+#config{
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+}
